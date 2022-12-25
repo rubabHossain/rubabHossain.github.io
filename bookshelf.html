@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bookshelf.css">
+  <title>Bookshelf</title>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+  <div id="nav-placeholder"></div>
+
+  <div id="content">
+    <p>I enjoy browsing through peoples’ bookshelves (I found <a href="https://vivekraja.com/bookshelf">Vivek Raja’s</a> particularly insightful) to get recommendations of what to read. This is meant to be my version of that. Ones that I thought were quite insightful are highlighted in green.</p>
+    <ul>
+        <li><em><a href="https://www.goodreads.com/book/show/18050143-zero-to-one">Zero to One</a></em>: Notes on Startups, or How to Build the Future - Peter Thiel</li>
+        <li><a href="https://www.goodreads.com/book/show/74034.Amusing_Ourselves_to_Death">Amusing Ourselves to Death</a>: Public Discourse in the Age of Show Business</li>
+    </ul>
+  </div>
+
+  <script type="text/javascript">
+    $(function () {
+      $("#nav-placeholder").load("/nav.html");
+    });
+  </script>
+  
+</body>
+
+<!-- Ive shamelessly stolen the styling of this site from https://vivekraja.com/ -->
+</html>
